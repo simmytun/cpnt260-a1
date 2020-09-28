@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  
+  
+  background-image: url('https://picsum.photos/id/888/800/800');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(black, indigo, transparent 10%), url('https://picsum.photos/id/888/800/800');
+
+}
+  
+  body {
+  margin: 0;
+
+  font-size: 48px;
+  font-variant: small-caps;
+  font-family:'Montserrat', cursive, sans-serif;
+  letter-spacing: 0.1em;
+}
+h1 {
+  font-family: 'bangers', cursive, sans-serif;
+  
+  margin: 0;
+  padding: 1rem 0.4rem;
+  allign-item: right;
+}
+
+p {
+  margin: 0;
+  padding: 1rem 0.4rem;
+  allign-item: left;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 58px;
+  }
+}
+a {
+  text-decoration: none;
+  color: indigo;
+  
+  border: 1px solid grey;
+  padding: 0.2rem 0.6rem;
+  display: block;
+  text-align: center;
+  
+}
+a {
+  display: flexbox;
+  
+}
+a:hover {
+  background-color: hsl(224deg, 100%, 50%);
+  color: hsl(60deg, 40%, 70%);
+}
+a:active {
+  background-color: hsl(300deg, 100%, 70%);
+  color: hsl(330deg, 100%, 50%);
+}
